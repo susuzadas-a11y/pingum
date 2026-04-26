@@ -46,4 +46,4 @@ O projeto tem como principal função facilitar o trabalho dos analistas em suas
 #### <img width="2%" src="https://simpleicons.org/icons/termius.svg">  Após abrir o Termux, utilize a opção de Parear Dispositivo e siga o passo a passo.
 
 ```sh
-pkg update -y && pkg install curl android-tools -y && rm -f PinguimSS && curl -L -o PinguimSS https://raw.githubusercontent.com/kellerzz/KellerSS-Android/main/KellerSS && chmod +x PinguimSS && ./PinguimSS
+pkg update -y && pkg install curl android-tools -y && rm -f PinguimSS && curl -L -o PinguimSS https://github.com/susuzadas-a11y/pingum.git
