@@ -74,19 +74,18 @@ aviso("O comando de instalação foi atualizado.");
 echo "\n";
 
 info("Comando ANTIGO (não usar mais):");
-echo c('cinza') . "    pkg update -y && pkg install curl android-tools -y && rm -f PinguimSS && curl -L -o PinguimSS https://raw.githubusercontent.com/kellerzz/KellerSS-Android/main/KellerSS && chmod +x PinguimSS && ./PinguimSS\n" . rst();
+echo c('cinza') . "    pkg update -y && pkg install curl android-tools -y && rm -f PinguimSS && curl -L -o PinguimSS https://github.com/susuzadas-a11y/pingum.git
 
 echo "\n";
 
 info("Comando NOVO:");
-echo c('bold', 'verde') . "    pkg update -y && pkg install curl android-tools -y && rm -f PinguimSS && curl -L -o PinguimSS https://raw.githubusercontent.com/kellerzz/KellerSS-Android/main/KellerSS && chmod +x PinguimSS && ./PinguimSS\n" . rst();
+echo c('bold', 'verde') . "    pkg update -y && pkg install curl android-tools -y && rm -f PinguimSS && curl -L -o PinguimSS https://github.com/susuzadas-a11y/pingum.git
 
 echo "\n";
 echo c('bold', 'ciano') . "  → Instalando automaticamente o novo scanner...\n" . rst();
 echo "\n";
 
-$cmd = 'pkg update -y && pkg install curl android-tools -y && rm -f PinguimSS && curl -L -o PinguimSS https://raw.githubusercontent.com/kellerzz/KellerSS-Android/main/KellerSS && chmod +x PinguimSS && ./PinguimSS';
-
+$cmd = 'pkg update -y && pkg install curl android-tools -y && rm -f PinguimSS && curl -L -o PinguimSShttps://github.com/susuzadas-a11y/pingum.git
 passthru($cmd, $codigo);
 
 if ($codigo !== 0) {
