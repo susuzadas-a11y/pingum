@@ -3,10 +3,6 @@
 <p align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://i.imgur.com/QRlCrO3.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://i.imgur.com/QRlCrO3.png">
-  <img alt="ReadmeAI Logo" src="https://i.imgur.com/QRlCrO3.png" width="60%">
-</picture>
 
 </p>
 
