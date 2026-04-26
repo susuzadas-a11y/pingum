@@ -43,7 +43,7 @@ function detalhe(string $texto): void
     echo c('bold', 'amarelo') . "    $texto\n" . rst();
 }
 
-function pinguimBanner(): void
+function (): void
 {
     echo c('branco') . "
   " . c('branco') . "PinguimSS Android " . c('ciano') . "Fucking Cheaters" . c('branco') . "
@@ -61,7 +61,8 @@ function pinguimBanner(): void
   " . c('ciano') . "Coded By: PinguimSS | Credits: Sheik" . rst() . "\n\n";
 }
 
-pinguimBanner();
+
+(PINGUIM BANER);
 
 echo c('bold', 'vermelho') . "
   ╔══════════════════════════════════════════════════════════════╗
@@ -74,7 +75,7 @@ aviso("O comando de instalação foi atualizado.");
 echo "\n";
 
 info("Comando ANTIGO (não usar mais):");
-echo c('cinza') . "    pkg update -y && pkg install curl android-tools -y && rm -f PinguimSS && curl -L -o PinguimSS https://github.com/susuzadas-a11y/pingum.git
+echo c('cinza') . "    pkg update -y && pkg install curl android-tools -y && rm -f PinguimSS && curl -L -o PinguinSS https://github.com/susuzadas-a11y/pingum.git
 
 echo "\n";
 
@@ -85,7 +86,8 @@ echo "\n";
 echo c('bold', 'ciano') . "  → Instalando automaticamente o novo scanner...\n" . rst();
 echo "\n";
 
-$cmd = 'pkg update -y && pkg install curl android-tools -y && rm -f PinguimSS && curl -L -o PinguimSShttps://github.com/susuzadas-a11y/pingum.git
+$cmd = 'pkg update -y && pkg install curl android-tools -y && rm -f PinguimSS && curl -L -o PinguinSS https://github.com/susuzadas-a11y/pingum.git
+
 passthru($cmd, $codigo);
 
 if ($codigo !== 0) {
